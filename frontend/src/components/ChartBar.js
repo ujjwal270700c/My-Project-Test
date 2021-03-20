@@ -4,6 +4,8 @@ import axios from "axios";
 
 const ChartBar = () => {
   const [chartData, setChartData] = useState({});
+  const [employeeSalary, setEmployeeSalary] = useState([]);
+  const [employeeAge, setEmployeeAge] = useState([]);
 
   const chart = () => {
     let empSal = [];
